@@ -1,0 +1,398 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    color: #fcf8f8;
+    background-color: #000;
+    background-size: cover; 
+    background-position: center; 
+    background-repeat: repeat;
+    height: 100vh; 
+}
+
+.logo{
+    font-size: medium;
+    height: auto;
+    width: fit-content;
+}
+
+header {
+    background-color: #000000;
+    padding: 10px 20px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    border-bottom: 2px solid #000000; 
+}
+
+header img {
+    height: 50px;
+}
+
+nav {
+    display: flex;
+    gap: 15px;
+    text-align: center;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+nav a {
+    text-decoration: none;
+    color: #ffffff;
+    font-weight: 70%;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+nav a:hover {
+    color: #ffffff;
+    background-color: #e07645;
+    border-radius: 50px;
+}
+
+.hero h1 {
+    font-family: 'Cursive', sans-serif;
+    font-size: 32;
+    margin-bottom: 20px;
+    color: #555;
+}
+
+.about {
+   text-align: center;
+    padding: 20px 15px;
+    line-height: 1.8;
+    font-size: 30px;
+    color: #ffffff;
+}
+
+.des{
+    font-size: 30px;
+    font-style: italic;
+    padding: 30px;
+    text-align: center;
+    color: #FFA500;
+    background-color: #000000;
+}
+
+
+.about p {
+    max-width: 800px;
+    margin: 0 auto;
+}
+
+.menu-categories {
+    display: flex;
+    justify-content: center;
+    gap: 40px;
+    margin: 20px 0;
+}
+
+.menu-categories a {
+    text-decoration: none;
+    color: #000;
+    font-weight: bold;
+}
+/* Reset default margins and padding */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+}
+
+/* Footer styling */
+
+/* Logo styling */
+.logo {
+    flex: 1;
+}
+
+.logo-img {
+    height: 80px; /* Adjust based on your logo size */
+    width: auto;
+}
+
+/* Company info styling */
+.company-info {
+    flex: 1;
+    text-align: center;
+    font-size: 14px;
+}
+
+.company-info p {
+    margin: 5px 0;
+}
+
+/* Contact info styling */
+.contact-info {
+    flex: 1;
+    text-align: right;
+    font-size: 14px;
+}
+
+.contact-info p {
+    margin: 5px 0;
+}
+
+.contact-info strong {
+    margin-right: 10px;
+}
+
+/* Responsive design */
+@media (max-width: 768px) {
+    .footer-content {
+        flex-direction: column;
+        text-align: center;
+    }
+
+    .logo, .company-info, .contact-info {
+        margin: 10px 0;
+    }
+}
+ 
+.menu-categories{
+    word-spacing: 100px;
+    text-align: right;
+
+}
+
+.FoodBody{
+    text-align: center; /* Centers the image horizontally */
+    height: 100vh; /* Takes full viewport height */
+    justify-content: center; /* Horizontally centers the image */
+    align-items: center;
+    margin: 0;
+    
+}
+
+.HomeMenu{
+    text-align: center; /* Centers the image horizontally */
+    height: 100vh; /* Takes full viewport height */
+    justify-content: center; /* Horizontally centers the image */
+    align-items: center;
+    
+    max-width: 100%;
+            background-image: url('path/to/your-image.jpg');
+            background-size: cover;
+            background-position: center;
+            background-repeat: no-repeat;
+        
+      
+    
+
+
+}
+#contact-us {
+    background-color: #000000;
+    padding: 40px 20px;
+    text-align: center;
+    color: #ffffff;
+    font-weight: bold;
+}
+
+.contact-container {
+    max-width: 800px;
+    margin: 0 auto;
+    align-items: normal;
+    
+}
+
+
+
+#contact-us input, #contact-us textarea {
+    padding: 10px;
+    border: 1px solid #ffffff;
+    border-radius: 5px;
+    font-size: 1rem;
+}
+
+#contact-us button {
+    padding: 10px 20px;
+    background-color: #007bff;
+    color: rgb(245, 245, 245);
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+
+
+.contact-details:hover{
+    align-items: center;
+    color: #ff8c00;
+}
+
+.todaySpecial:hover {
+    border: 2px solid #ff8c00;
+    transition: background-color 0.5s ease, color 0.5s ease;
+    background-color: #000; /* Add background color change on hover */
+    color: #ff8c00; /* Add text color change on hover */
+}
+
+
+.reservation:hover:hover{
+    border: 2px solid #ff8c00;
+    transition: background-color 0.5s ease, color 0.5s ease;
+    background-color: #000; /* Add background color change on hover */
+    color: #ff8c00; /* Add text color change on hover */
+}
+
+.BackToTop {
+    background-color: #ff6600; /* Orange */
+    color: rgb(0, 0, 0);
+    padding: 12px 20px;
+    border: none;
+    border-radius: 20px;
+    font-size: 16px;
+    cursor: pointer;
+    transition: 0.3s ease;
+    margin: 20px;
+}
+
+.BackToTop:hover {
+    background-color: #ff660099; /* Darker Orange */
+}
+
+.BackToTop:active {
+    transform: scale(0.95); /* Click effect */
+}
+
+.contact-section {
+    padding: 20px;
+    background-color: #000000;
+    text-align: center;
+    font-family: Arial, sans-serif;
+}
+
+.contact-section div {
+    margin: 10px 0;
+}
+
+.contact-section span {
+    color: #ffffff;
+    font-size: 16px;
+    line-height: 1.5;
+}
+
+.address {
+    font-weight: bold;
+}
+
+/* Optional: Add some responsive design */
+@media (max-width: 768px) {
+    .contact-section {
+        padding: 15px;
+    }
+    
+    .contact-section span {
+        font-size: 14px;
+    }
+}
+
+
+
+.footer-info {
+    display: inline-flex;
+    flex-direction: column;
+    gap: 5px;
+}
+
+footer {
+    background-color: #792f01;
+    text-align: left;
+    padding: 20px 10px;
+    font-size: 0.9rem;
+}
+
+.footer-piracy a{
+  color: #ffffff;
+}
+
+.footer-info {
+    display: inline-flex;
+    flex-direction: column;
+    gap: 5px;
+}
+
+.footer-info div {
+    display: flex;
+    justify-content:left;
+    gap: 10px;
+    align-items: right;
+}
+
+.footer-info a {
+    color: #ffffff;
+    text-decoration: none;
+    text-align: left;
+    
+}
+
+.footer-info span {
+    color: #ffffff;
+}
+
+.footer-info{
+    
+    font-weight: bold;
+}
+
+.footer-piracy{
+    text-align: right;
+    color: aliceblue;
+    
+}
+
+.footer-logo {
+    display: flex;
+    color: rgb(255, 255, 255);
+    justify-content: center;
+    align-items: center;
+    height: 100px; /* Adjust as needed */
+    
+    
+    
+}
+
+footer img { max-width: 100px;
+}
+
+.map {
+    /* Center the map */
+    display: block;
+    margin: 0 auto;
+    max-width: 90%;
+    width: 600px; /* Adjustable width */
+    height:auto;
+
+    /* Simple styling */
+    border: 2px solid #ddd;
+    border-radius: 5px;
+    background-color: #fff;
+
+    /* Transition for hover effect */
+    transition: transform 0.2s ease;
+}
+
+/* Simple hover effect */
+.map:hover {
+    transform: scale(1.02); /* Slight zoom on hover */
+    border-color: #aaa; /* Darker border on hover */
+}
+
+/* Style for image or iframe inside */
+.map img,
+.map iframe {
+    width: 100%;
+    height: 250px;
+    border-radius: 3px;
+}
+
+/* Responsive design */
+@media (max-width: 600px) {
+    .map {
+        width: 95%;
+    }
+}

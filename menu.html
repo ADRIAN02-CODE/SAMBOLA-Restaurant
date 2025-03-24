@@ -1,0 +1,485 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sambol Kitchen Menu</title>
+    <link rel="stylesheet" href="C:\Users\User\Documents\HTML tutorial\Course work\CSS\menu.css" target="self">
+    <script src="C:\Users\User\Documents\HTML tutorial\Course work\JavaScript\menu.js"></script>
+
+</head>
+<body>
+    <header>
+        <div class="logo">
+            <img src="C:\Users\User\Documents\HTML tutorial\Course work\Pictures\NEWLOGO.png" a href ="/home 1.html" alt="Sambola Logo" style="height: 150px; max-height: 150px;">
+            <p class="logo-text"></p>
+        </div>
+        <nav class="nav-button">
+            <a href="home 1.html">Home &nbsp;</a>
+            <a href="menu.html">Order Now &nbsp;</a>
+            <a href="home 1.html#about-us">About Us &nbsp;</a>
+            <a href="home 1.html#contact-us">Contact Us</a>
+        </nav>
+    </header>
+    <main>
+        
+        <section id="menu">
+              
+            <h1 >Our Menu</h1>
+
+            <div class="button-row">
+                <a href="#Appetizers" class="btn">Appetizers</a>
+                <a href="#Mains" class="btn">Mains</a>
+                <a href="#Deserts" class="btn">Deserts</a>
+                <a href="#Beverages" class="btn">Beverages</a>
+            </div>
+
+            <div class="menu-category">
+                <br>
+                <br>
+                <h2 >Appetizers</h2>
+                <div class="menu-item" id="Appetizers">
+                    <img src="C:\Users\User\Documents\HTML tutorial\Course work\Pictures\rolls.avif" alt="Sri Lankan Rolls" />
+                    <h3>Sri Lankan Rolls</h3>
+                    <p>Sri Lankan rolls are known for their spicy kick, often enhanced with chili and curry spices, making them a flavorful.</p>
+                    <span>100LKR</span>
+                    <button class="add-to-cart" onclick="addToCart('Sri Lankan Rolls', 100.00)">Add to Cart</button>
+                </div>
+                <div class="menu-item">
+                    <img src="C:\Users\User\Documents\HTML tutorial\Course work\Pictures\roti ori.jpg" alt="Sri Lankan Roti" />
+                    <h3>Sri Lankan Roti</h3>
+                    <p>Pol Roti has a mild, slightly sweet, and nutty flavor from the grated coconut, complemented by a hint of salt.
+                    </p>
+                    <span>80LKR</span>
+                    <button class="add-to-cart" onclick="addToCart( 'Sri Lankan Roti', 80.00)">Add to Cart</button>
+                </div>
+                <div class="menu-item">
+                    <img src="C:\Users\User\Documents\HTML tutorial\Course work\Pictures\patis.jpg" alt="Sri Lankan Pattis" />
+                    <h3>Sri Lankan Pattis</h3>
+                    <p>Sri Lankan patties are crispy, deep-fried pastries filled with spiced potatoes, fish, or meat, offering a flavorful, savory snack with a crunchy outer layer.</p>
+                    <span>90LKR</span>
+                    <button class="add-to-cart" onclick="addToCart( 'Sri Lankan Pattis', 90.00)">Add to Cart</button>
+                </div>
+                <div class="menu-item">
+                    <img src="C:\Users\User\Documents\HTML tutorial\Course work\Pictures\milk rice.png" alt="Milk Rice" />
+                    <h3>Milk Rice</h3>
+                    <p>Milk rice (Kiribath) is a traditional Sri Lankan dish made with coconut milk and rice, creating a creamy, rich texture, often enjoyed during celebrations.</p>
+                    <span>100LKR</span>
+                    <button class="add-to-cart"onclick="addToCart('Milk Rice', 100.00)">Add to Cart</button>
+                </div>
+
+                <div class="menu-item">
+                    <img src="C:\Users\User\Documents\HTML tutorial\Course work\Pictures\HOPPERS.png" alt="Hoppers" />
+                    <h3>Hoppers</h3>
+                    <p>Hoppers are bowl-shaped, crispy-edged Sri Lankan pancakes made from fermented rice flour and coconut milk, often enjoyed with curries, sambols, or a runny egg center.!.(Egg , Milk , Plain)</p>
+                    <span>100LKR</span>
+                    <button class="add-to-cart" onclick="addToCart('Hoppers', 100.00)">Add to Cart</button>
+                </div>
+
+                <div class="menu-item">
+                    <img src="C:\Users\User\Documents\HTML tutorial\Course work\Pictures\string hoppers.jpg" alt="String Hoppers" />
+                    <h3>String Hoppers(10pc)</h3>
+                    <p>String hoppers (Idiyappam) are delicate, steamed rice noodle bundles, popular in Sri Lanka, served with coconut sambol, curries, or sweetened coconut milk for breakfast or dinner.</p>
+                    <span>120LKR</span>
+                    <button class="add-to-cart" onclick="addToCart('String Hoppers', 120.00)">Add to Cart</button>
+                </div>
+
+                <div class="menu-item">
+                    <img src="C:\Users\User\Documents\HTML tutorial\Course work\Pictures\vadai.jpg" alt="Ulundu Vadai" />
+                    <h3>Ulundu Vadai</h3>
+                    <p>Ulundu Vadai are crispy, golden-brown Sri Lankan lentil fritters made from urad dal, spiced with onions, curry leaves, and green chilies, often enjoyed with chutney or sambol.</p>
+                    <span>120LKR</span>
+                    <button class="add-to-cart"onclick="addToCart('Ulundu Vadai', 120.00)">Add to Cart</button>
+                </div>
+
+                <div class="menu-item">
+                    <img src="C:\Users\User\Documents\HTML tutorial\Course work\Pictures\Kurakkan Porridge.jpg" alt="Kurakkan Porridge" />
+                    <h3>Kurakkan Porridge</h3>
+                    <p>Kurakkan porridge is a nutritious Sri Lankan drink made from finger millet flour, coconut milk, and jaggery, offering a thick, wholesome, and naturally sweet flavor.</p>
+                    <span>90LKR</span>
+                    <button  class="add-to-cart"onclick="addToCart('Kurakkan Porridge', 90.00)">Add to Cart</button>
+                </div>
+
+                <div class="menu-item">
+                    <img src="C:\Users\User\Documents\HTML tutorial\Course work\Pictures\Egg Bun.jpg" alt="Egg Bun" />
+                    <h3>Egg Bun</h3>
+                    <p>Egg bun is a soft Sri Lankan bakery snack filled with a spiced boiled egg mixture, baked to golden perfection, offering a savory and satisfying flavor.</p>
+                    <span>90LKR</span>
+                    <button class="add-to-cart"onclick="addToCart('Egg Bun', 90.00)">Add to Cart</button>
+                </div>
+
+                <div class="menu-item">
+                    <img src="C:\Users\User\Documents\HTML tutorial\Course work\Pictures\Watalappan Pancakes.jpg" alt="Watalappan Pancakes" />
+                    <h3>Watalappan Pancakes</h3>
+                    <p>Watalapam pancake is a Sri Lankan dessert-inspired pancake, infused with the rich flavors of watalapam—a spiced coconut and jaggery pudding—giving it a sweet, aromatic taste.</p>
+                    <span>80LKR</span>
+                    <button  class="add-to-cart"onclick="addToCart('Watalapam Pancakes', 80.00)">Add to Cart</button>
+                </div>
+
+                <div class="menu-item">
+                    <img src="C:\Users\User\Documents\HTML tutorial\Course work\Pictures\Fish Bun.jpg" alt="Fish Bun" />
+                    <h3>Fish Bun</h3>
+                    <p>Fish bun is a savory Sri Lankan snack, featuring a soft, fluffy bun filled with spiced fish, onions, and herbs, offering a flavorful and satisfying bite.</p>
+                    <span>80LKR</span>
+                    <button class="add-to-cart" onclick="addToCart('Fish Bun', 80.00)">Add to Cart</button>
+                </div>
+
+
+                <br>
+                <br>
+                <br>
+                <br>
+                <div class="menu-category">
+                <h2>Mains</h2>
+                <div class="menu-item" id="Mains">
+                    <img src="C:\Users\User\Documents\HTML tutorial\Course work\Pictures\Sri_Lankan_Rice_and_Curry.jpg" alt="Rice and Curry" />
+                    <h3>Rice & Curry Buffet</h3>
+                    <p>A Sri Lankan Rice & Curry Buffet offers a variety of fragrant rice served with an array of flavorful curries, including vegetables, meats, fish, sambols, and chutneys.</p>
+                    <span>900LKR</span>
+                    <button class="add-to-cart" onclick="addToCart('Sri Lankan Rice And Curry', 900.00)">Add to Cart</button>
+                </div>
+                <div class="menu-item">
+                    <img src="C:\Users\User\Documents\HTML tutorial\Course work\Pictures\Chicken-Biryani-Recipe.jpg" alt="Buriyani" />
+                    <h3>Biriyani</h3>
+                    <p>Biryani is a fragrant, spiced rice dish from Sri Lanka, typically made with marinated meat (chicken, mutton, or fish), layers of aromatic rice, and garnished with fried onions and boiled eggs.</p>
+                    <span>1100LKR</span>
+                    <button class="add-to-cart"onclick="addToCart('Biriyani', 1100.00)">Add to Cart</button>
+                </div>
+                <div class="menu-item">
+                    <img src="C:\Users\User\Documents\HTML tutorial\Course work\Pictures\j20211030042719.jpeg" alt="Sri Lankan Kottu" />
+                    <h3>Sri Lankan Kottu</h3>
+                    <p>Sri Lankan Kottu is a popular street food made from chopped flatbread stir-fried with vegetables, meat (chicken, beef, or mutton), eggs, and flavorful spices, often served with curry.</p>
+                    <span>1000LKR</span>
+                    <button class="add-to-cart" onclick="addToCart('Sri Lankan Kottu', 1000.00)">Add to Cart</button>
+                </div>
+                <div class="menu-item">
+                    <img src="C:\Users\User\Documents\HTML tutorial\Course work\Pictures\download.jpg" alt="Sri Lankan Noodles" />
+                    <h3>Sri Lankan Noodles </h3>
+                    <p>Sri Lankan noodles are a flavorful dish made with stir-fried or boiled noodles, often mixed with vegetables, spices, and optional meat or seafood, served with sambol or curry.</p>
+                    <span>1000LKR</span>
+                    <button class="add-to-cart" onclick="addToCart('Sri Lankan Noodles', 1000.00)">Add to Cart</button>
+                </div>
+                <div class="menu-item">
+                    <img src="C:\Users\User\Documents\HTML tutorial\Course work\Pictures\veg-fried-rice.jpg" alt="Sri Lankan Fried Rice " />
+                    <h3>Sri Lankan Fried Rice</h3>
+                    <p>Sri Lankan fried rice is a savory dish made with rice stir-fried with vegetables, eggs, and a variety of spices, often served with curries or meats for added flavor.</p>
+                    <span>1000LKR</span>
+                    <button class="add-to-cart" onclick="addToCart(16, 'Sri Lankan Fried Rice', 1000.00)">Add to Cart</button>
+                </div>
+
+                <div class="menu-item">
+                    <img src="C:\Users\User\Documents\HTML tutorial\Course work\Pictures\Cheese Egg Roti Portion Chicken.jpg" alt="Cheese Egg Roti Portion Chicken" />
+                    <h3>Cheese Egg Roti Portion Chicken</h3>
+                    <p>Cheese Egg Roti with Portion Chicken is a Sri Lankan street food consisting of a soft roti filled with melted cheese, a scrambled egg, and a portion of spiced chicken, all wrapped together.</p>
+                    <span>1550LKR</span>
+                    <button  class="add-to-cart" onclick="addToCart( 'Cheese Egg Roti Portion Chicken', 1550.00)">Add to Cart</button>
+                </div>
+
+                <div class="menu-item">
+                    <img src="C:\Users\User\Documents\HTML tutorial\Course work\Pictures\Pittu.jpg" alt="Pittu" />
+                    <h3>Pittu</h3>
+                    <p>Pittu is a traditional Sri Lankan dish made from steamed rice flour and grated coconut, shaped into cylinders and often served with curry, sambol, or coconut milk for a flavorful meal.</p>
+                    <span>200LKR</span>
+                    <button class="add-to-cart" onclick="addToCart('Pittu', 200.00)">Add to Cart</button>
+                </div>
+
+
+                <div class="menu-item">
+                    <img src="C:\Users\User\Documents\HTML tutorial\Course work\Pictures\Lamprais.jpg" alt="Lamprais" />
+                    <h3>Lamprais</h3>
+                    <p>Lamprais is a Sri Lankan dish featuring rice cooked with aromatic spices, accompanied by a variety of meats (usually chicken, beef, or pork), vegetables, and sambol, all wrapped in a banana leaf and steamed.</p>
+                    <span>1100LKR</span>
+                    <button  class="add-to-cart"onclick="addToCart( 'Lamprais', 1100.00)">Add to Cart</button>
+                </div>
+
+                <div class="menu-item">
+                    <img src="C:\Users\User\Documents\HTML tutorial\Course work\Pictures\Polos Curry.jpg" alt="Polos Curry" />
+                    <h3>Polos Curry</h3>
+                    <p>Polos Curry is a Sri Lankan dish made from young jackfruit, cooked in a rich and flavorful curry with spices, coconut milk, and sometimes tamarind, offering a savory and hearty taste.</p>
+                    <span>300LKR</span>
+                    <button class="add-to-cart" onclick="addToCart('Polos Curry', 300.00)">Add to Cart</button>
+                </div>
+
+                <div class="menu-item">
+                    <img src="C:\Users\User\Documents\HTML tutorial\Course work\Pictures\Chicken Curry.jpg" alt="Chicken Curry" />
+                    <h3>Chicken Curry</h3>
+                    <p>Sri Lankan chicken curry is a flavorful dish made with tender chicken pieces simmered in a rich blend of spices, coconut milk, and herbs, creating a savory, aromatic curry.</p>
+                    <span>600LKR</span>
+                    <button class="add-to-cart"onclick="addToCart('Chicken Curry', 600.00)">Add to Cart</button>
+                </div>
+
+                <div class="menu-item">
+                    <img src="C:\Users\User\Documents\HTML tutorial\Course work\Pictures\Jaffna Crab Curry.jpg" alt="Jaffna Crab Curry" />
+                    <h3>Jaffna Crab Curry</h3>
+                    <p>Jaffna crab curry is a spicy, aromatic Sri Lankan dish made with fresh crab cooked in a rich, tangy coconut gravy, flavored with fiery spices and herbs, typical of Jaffna cuisine.</p>
+                    <span>800LKR</span>
+                    <button class="add-to-cart"onclick="addToCart('Jaffna Crab Curry', 800.00)">Add to Cart</button>
+                </div>
+
+
+                <div class="menu-item">
+                    <img src="C:\Users\User\Documents\HTML tutorial\Course work\Pictures\Cuttlefish Curry.jpg" alt="Cuttlefish Curry" />
+                    <h3>Cuttlefish Curry</h3>
+                    <p>Cuttlefish in Sri Lankan cuisine is typically cooked in spicy curries or stir-fries, featuring tender pieces of cuttlefish seasoned with aromatic spices, coconut milk, and herbs for a flavorful dish.</p>
+                    <span>850LKR</span>
+                    <button class="add-to-cart"onclick="addToCart('Cuttlefish Curry', 850.00)">Add to Cart</button>
+                </div>
+
+                <div class="menu-item">
+                    <img src="C:\Users\User\Documents\HTML tutorial\Course work\Pictures\Prawn Curry.jpg" alt="Prawn Curry" />
+                    <h3>Prawn Curry</h3>
+                    <p>Sri Lankan prawn curry is a flavorful dish made with succulent prawns cooked in a spicy coconut milk gravy, infused with aromatic spices like curry leaves, mustard seeds, and turmeric.</p>
+                    <span>950LKR</span>
+                    <button class="add-to-cart"onclick="addToCart('Prawn Curry', 950.00)">Add to Cart</button>
+                </div>
+            </div>
+            <br>
+            <br>
+            <br>
+            <br>
+            <div class="menu-category">
+                <h2>Desserts</h2>
+                <div class="menu-item" id="Deserts">
+                    <img src="C:\Users\User\Documents\HTML tutorial\Course work\Pictures\curd.jpg" alt="Curd with Kithul Treacle" />
+                    <h3>Curd with Kitul Treacle</h3>
+                    <p>Curd with Kitul treacle is a traditional Sri Lankan dessert, where creamy buffalo curd is drizzled with sweet, aromatic Kitul treacle (palm syrup), creating a rich, tangy, and sweet combination.</p>
+                    <span>110LKR</span>
+                    <button class="add-to-cart"onclick="addToCart('Curd With Kithul Treacle', 110.00)">Add to Cart</button>
+                </div>
+                <div class="menu-item">
+                    <img src="C:\Users\User\Documents\HTML tutorial\Course work\Pictures\aluwa.jpg" alt="Aluwa" />
+                    <h3>Aluwa</h3>
+                    <p>Aluwa is a traditional Sri Lankan sweet made from rice flour, jaggery, and coconut milk, often flavored with spices like cardamom, and cut into diamond-shaped pieces, offering a chewy, sweet treat.</p>
+                    <span>80LKR</span>
+                    <button class="add-to-cart" onclick="addToCart('Aluwa', 80.00)">Add to Cart</button>
+                </div>
+                <div class="menu-item">
+                    <img src="C:\Users\User\Documents\HTML tutorial\Course work\Pictures\helapa.JPG" alt="Helapa" />
+                    <h3>Helapa</h3>
+                    <p>Helapa is a traditional Sri Lankan sweet made from rice flour, jaggery, and coconut, wrapped in a banana leaf and steamed. It has a soft, chewy texture with a sweet, rich flavor.</p>
+                    <span>80LKR</span>
+                    <button class="add-to-cart"onclick="addToCart( 'Helapa', 80.00)">Add to Cart</button>
+                </div>
+                <div class="menu-item">  
+                    <img src="C:\Users\User\Documents\HTML tutorial\Course work\Pictures\Watalappan-image-WS-(7).jpg" alt="Watalappam" />
+                    <h3>Wattalapam</h3>
+                    <p>Wattalapam is a rich Sri Lankan dessert made from coconut milk, jaggery, eggs, and spices like cardamom and nutmeg, creating a smooth, custard-like pudding, often served chilled.</p>
+                    <span>100LKR</span>
+                    <button class="add-to-cart" onclick="addToCart('Wattalapam', 100.00)">Add to Cart</button>
+                 
+                </div>
+
+                <div class="menu-item">
+                    <img src="C:\Users\User\Documents\HTML tutorial\Course work\Pictures\Kalu Dodol.jpeg" alt="Kalu Dodol" />
+                    <h3>Kalu Dodol</h3>
+                    <p>Kalu Dodal is a traditional Sri Lankan sweet made from coconut milk, jaggery, and rice flour, slowly cooked to a thick, fudge-like consistency, offering a rich, sweet flavor with a chewy texture.</p>
+                    <span>50LKR</span>
+                    <button class="add-to-cart"onclick="addToCart('Kalu Dadol', 50.00)">Add to Cart</button>
+                </div>
+
+                <div class="menu-item">
+                    <img src="C:\Users\User\Documents\HTML tutorial\Course work\Pictures\Pani Walalu.jpg" alt="Pani Walalu" />
+                    <h3>Pani Walalu</h3>
+                    <p>Pani Walalu is a popular Sri Lankan sweet made from deep-fried dough, shaped into coils, and soaked in a sweet, sticky syrup made from jaggery and honey, offering a crispy and syrupy treat.</p>
+                    <span>50LKR</span>
+                    <button class="add-to-cart"onclick="addToCart('Pani Walalu', 50.00)">Add to Cart</button>
+                </div>
+
+
+                <div class="menu-item">
+                    <img src="C:\Users\User\Documents\HTML tutorial\Course work\Pictures\Bibikkan.jpg" alt="Bibikkan" />
+                    <h3>Bibikkan</h3>
+                    <p>Bibikkan is a traditional Sri Lankan cake made with grated coconut, jaggery, and spices like cinnamon and cardamom, offering a rich, moist texture and a sweet, aromatic flavor.</p>
+                    <span>70LKR</span>
+                    <button class="add-to-cart"onclick="addToCart( 'Bibikkan', 70.00)">Add to Cart</button>
+                </div>
+
+                <div class="menu-item">
+                    <img src="C:\Users\User\Documents\HTML tutorial\Course work\Pictures\Aasmi.jpg" alt="Aasmi" />
+                    <h3>Aasmi</h3>
+                    <p>Aasmi is a Sri Lankan sweet made from rice flour and coconut milk, deep-fried into crispy, golden layers, then soaked in a sweet sugar syrup, creating a crunchy and syrupy dessert.</p>
+                    <span>90LKR</span>
+                    <button class="add-to-cart"onclick="addToCart('Aasmi', 90.00)">Add to Cart</button>
+                </div>
+
+                <div class="menu-item">
+                    <img src="C:\Users\User\Documents\HTML tutorial\Course work\Pictures\Pol Toffee.jpg" alt="Pol Toffee" />
+                    <h3>Pol Toffee</h3>
+                    <p>Pol Toffee is a traditional Sri Lankan candy made from coconut, jaggery, and sugar, cooked together to form a thick, chewy toffee with a rich, sweet coconut flavor.</p>
+                    <span>20LKR</span>
+                    <button class="add-to-cart"onclick="addToCart('Pol Toffee', 20.00)">Add to Cart</button>
+                </div>
+
+                <div class="menu-item">
+                    <img src="C:\Users\User\Documents\HTML tutorial\Course work\Pictures\Seeni Sambol Buns.jpg" alt="Seeni Sambol Buns" />
+                    <h3>Seeni Sambol Buns</h3>
+                    <p>Seeni Sambol Buns are soft, fluffy Sri Lankan buns filled with a sweet and spicy mixture of caramelized onions, brown sugar, and spices, offering a perfect balance of sweetness and heat.</p>
+                    <span>60LKR</span>
+                    <button class="add-to-cart" onclick="addToCart( 'Seeni Sambol Buns', 60.00)">Add to Cart</button>
+                </div>
+
+                <div class="menu-item">
+                    <img src="C:\Users\User\Documents\HTML tutorial\Course work\Pictures\Lavariya.jpg" alt="Lavariya" />
+                    <h3>Lavariya</h3>
+                    <p>Lavariya is a traditional Sri Lankan sweet made from rice flour, coconut, and jaggery, wrapped in a banana leaf and steamed. It has a soft, chewy texture with a sweet, rich flavor.</p>
+                    <span>65LKR</span>
+                    <button class="add-to-cart"onclick="addToCart( 'Lavariya', 65.00)">Add to Cart</button>
+                </div>
+
+
+                <div class="menu-item">
+                    <img src="C:\Users\User\Documents\HTML tutorial\Course work\Pictures\Coconut Ice Cream.jpg" alt="Coconut Ice Cream" />
+                    <h3>Coconut Ice Cream</h3>
+                    <p>Coconut ice cream is a creamy, tropical dessert made with coconut milk, sugar, and often grated coconut, offering a smooth, rich flavor with a refreshing, coconut-packed taste.</p>
+                    <span>155LKR</span>
+                    <button class="add-to-cart" onclick="addToCart('Coconut Ice Cream', 155.00)">Add to Cart</button>
+                </div>
+
+                <div class="menu-item">
+                    <img src="C:\Users\User\Documents\HTML tutorial\Course work\Pictures\Jaggery Pudding.jpg" alt="Jaggery Pudding" />
+                    <h3>Jaggery Pudding</h3>
+                    <p>Jaggery pudding is a Sri Lankan dessert made from jaggery, coconut milk, and rice flour, creating a smooth, dense pudding with a rich, sweet flavor and a hint of coconut. </p>
+                    <span>190LKR</span>
+                    <button class="add-to-cart"onclick="addToCart('Jaggery Pudding', 190.00)">Add to Cart</button>
+                </div>
+
+
+
+
+
+
+
+            </div>
+
+
+
+            <br>
+            <br>
+            <br>
+            <br>
+            <div class="menu-category">
+                <h2>Beverages</h2>
+                <div class="menu-item" id="Beverages">
+                    <img src="C:\Users\User\Documents\HTML tutorial\Course work\Pictures\Ceylon Tea.jpg" alt="Ceylon Tea" />
+                    <h3>Ceylon Tea</h3>
+                    <p>Famous tea with rich flavor, enjoyed with or without milk, sugar, or spices.</p>
+                    <span>110LKR</span>
+                    <button class="add-to-cart" onclick="addToCart('Ceylon Tea', 110.00)">Add to Cart</button>
+                </div>
+                <div class="menu-item">
+                    <img src="C:\Users\User\Documents\HTML tutorial\Course work\Pictures\King Coconut Water.jpg" alt="King Coconut Water" />
+                    <h3>King Coconut Water</h3>
+                    <p>Refreshing natural drink, sweet, hydrating, sold fresh in coconuts.</p>
+                    <span>80LKR</span>
+                    <button class="add-to-cart"onclick="addToCart('King Coconut Water', 80.00)">Add to Cart</button>
+                </div>
+                <div class="menu-item">
+                    <img src="C:\Users\User\Documents\HTML tutorial\Course work\Pictures\Toddy.jpg" alt="Toddy" />
+                    <h3>Toddy</h3>
+                    <p>Mild alcoholic drink made from fermented palm sap, enjoyed locally.</p>
+                    <span>800LKR</span>
+                    <button class="add-to-cart"onclick="addToCart( 'Toddy', 800.00)">Add to Cart</button>
+                </div>
+                <div class="menu-item">  <img src="C:\Users\User\Documents\HTML tutorial\Course work\Pictures\Lassi.jpg" alt="Lassi" />
+                    <h3>Lassi</h3>
+                    <p>Yogurt-based drink, flavored with fruits, spices, or rose water, creamy and cool.</p>
+                    <span>1000LKR</span>
+                    <button class="add-to-cart"onclick="addToCart( 'Lassi', 1000.00)">Add to Cart</button>
+                </div>
+
+                <div class="menu-item">
+                    <img src="C:\Users\User\Documents\HTML tutorial\Course work\Pictures\Jaggery Juice.jpg" alt="Jaggery Juice" />
+                    <h3>Jaggery Juice</h3>
+                    <p>Sweet drink made from palm sap, energizing and natural, enjoyed fresh.</p>
+                    <span>500LKR</span>
+                    <button class="add-to-cart"onclick="addToCart('Jaggery Juice', 500.00)">Add to Cart</button>
+                </div>
+
+                <div class="menu-item">
+                    <img src="C:\Users\User\Documents\HTML tutorial\Course work\Pictures\Wood Apple Juice.jpg" alt="Wood Apple Juice" />
+                    <h3>Wood Apple Juice</h3>
+                    <p>Tangy, sweet drink made from wood apple fruit, served chilled.</p>
+                    <span>800LKR</span>
+                    <button class="add-to-cart"onclick="addToCart('Wood Apple Juice', 800.00)">Add to Cart</button>
+                </div>
+
+
+                <div class="menu-item">
+                    <img src="C:\Users\User\Documents\HTML tutorial\Course work\Pictures\Sarsaparilla.jpg" alt="Sarsaparilla" />
+                    <h3>Sarsaparilla</h3>
+                    <p>Herbal, refreshing cold drink made from roots, believed to have health benefits.</p>
+                    <span>700LKR</span>
+                    <button class="add-to-cart"onclick="addToCart('Sarsaparilla', 700.00)">Add to Cart</button>
+                </div>
+
+                <div class="menu-item">
+                    <img src="C:\Users\User\Documents\HTML tutorial\Course work\Pictures\Faluda.jpg" alt="Faluda" />
+                    <h3>Faluda</h3>
+                    <p>Sweet, creamy dessert drink with milk, rose syrup, and basil seeds, topped with ice cream.</p>
+                    <span>600LKR</span>
+                    <button class="add-to-cart"onclick="addToCart('Faluda', 600.00)">Add to Cart</button>
+                </div>
+
+                
+
+            </div>
+
+        
+<br>
+<br>
+            
+            <a href="lastpage.html">
+                <button class="view-cart">View Cart</button>
+
+                 
+            </a>
+
+            <button id="BackToTop" class="BackToTop" onclick="scrollToTop()">Back to Top</button>
+            </div>
+            <script>
+                function scrollToTop() {
+                    window.scrollTo({ top: 0, behavior: 'smooth' });
+                }
+            </script>
+
+
+
+        </section>
+    </main>
+    <footer>
+        
+        <div class="footer-info">
+            <div>
+                <span ><Address>Address : 17B Visaka Road, Colombo 04</Address></span>
+            </div>
+            <br>
+            <div>
+                <span>Tel : (+94) 112 938 229</span>
+            </div>
+            <br>
+            <div>
+                <span>Open Daily: 10:00 AM - 11:00 PM</span>
+            </div>
+            
+    
+        </div>
+        <div class="footer-piracy" >
+            <div >
+                <div>
+                    <a href="terms and conditions.html">Terms and Conditions</a> |
+                    <a href="privacy policy.html">Privacy Policy</a>
+                </div>
+            </div>
+        </div>
+        <div>
+            <div>
+                <div class="footer-logo">
+                    <img src="C:\Users\User\Documents\HTML tutorial\Course work\Pictures\NEWLOGO.png" alt="© Copyright 2025 Sambol Kitchen - All Rights Reserved" >
+                    <p  class="footer-logo">© Copyright 2025 Sambola - All Rights Reserved</p>
+                </div>
+    
+            </div>
+        </div>
+    </footer>
+</body>
+</html>

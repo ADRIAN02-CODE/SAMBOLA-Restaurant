@@ -1,0 +1,351 @@
+/* styles.css */
+
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #000000;
+    color: rgb(255, 123, 0);
+    background-image: url('C:/Users/User/Documents/HTML tutorial/Course work/Pictures/orange background.jpg');
+    background-size: cover; /* Ensures the image covers the entire background */
+    background-position: center; /* Centers the image */
+    background-attachment: fixed; /* Makes the background fixed during scrolling */
+    background-repeat: no-repeat; /* Prevents the image from repeating */
+    background-color: rgba(0, 0, 0, 0.7);
+}
+header {
+    background-color: #000000;
+    padding: 10px 20px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    border-bottom: 2px solid #000000;
+}
+
+header img {
+    height: 50px;
+}
+nav {
+    display: flex;
+    gap: 15px;
+    text-align: center;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+   
+    
+    
+}
+
+nav a {
+    text-decoration: none;
+    color: #ffffff;
+    font-weight: 70%;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+   
+    
+    
+}
+
+nav a:hover {
+    color: #ffffff;
+    background-color: #e07645;
+    border-radius: 15px;
+}
+
+
+
+
+main {
+    padding: 20px;
+    
+}
+
+#menu h1 {
+    text-align:center ;
+    font-size: 32pt;
+    font-family: monospace;
+    background-color:rgb(241, 149, 0);
+    box-shadow: inset;
+    color: rgb(0, 0, 0);
+   
+}
+.menu{
+    font-size: x-large;
+    
+}
+
+.menu-category {
+    margin: bottom 100px;;
+   
+}
+
+.menu-category h2 {
+    margin-top: 20px;
+    border-bottom: 2px solid rgb(255, 147, 7);
+    padding-bottom: 5px;
+    color: rgb(255, 255, 255);
+    font-size: xx-large;
+    font-style: oblique;
+    font-weight: 800;
+    text-align: center;
+    font-family: 'Times New Roman', Times, serif;
+    
+}
+
+.menu-item p {
+    margin: 0;
+    font-size: 0.9rem;
+    flex: 3;
+    padding-left: 10px;
+    max-width: 2500px;
+    line-height: 1.5; /* Ensures consistent spacing in multiline descriptions */
+}
+
+.menu-item {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #212121;
+    padding: 15px;
+    margin-bottom: 10px;
+    border-radius: 8px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);
+    color: #141414;
+    word-spacing: 0pc;
+}
+
+.menu-item h3 {
+    margin: 0;
+    font-size: 1.2rem;
+    flex: 2;
+    width: fit-content;
+    
+}
+
+.menu-item span {
+    
+    color: rgb(255, 166, 0);
+    flex-shrink: 0;
+    text-align: right;
+}
+
+/* Specific Fix for "Rice and Curry Buffet" */
+.menu-item.rice-and-curry {
+    align-items: flex-start; /* Aligns items at the top for long descriptions */
+}
+
+.menu-item.rice-and-curry p {
+    margin-top: 5px; /* Adds spacing for visual clarity */
+}
+
+
+
+
+.footer-info {
+    display: inline-flex;
+    flex-direction: column;
+    gap: 5px;
+}
+
+footer {
+    background-color: #792f01;
+    text-align: left;
+    padding: 20px 10px;
+    font-size: 0.9rem;
+}
+
+.footer-piracy a{
+  color: #ffffff;
+}
+
+.footer-info {
+    display: inline-flex;
+    flex-direction: column;
+    gap: 5px;
+}
+
+.footer-info div {
+    display: flex;
+    justify-content:left;
+    gap: 10px;
+    align-items: right;
+}
+
+.footer-info a {
+    color: #ffffff;
+    text-decoration: none;
+    text-align: left;
+    
+}
+
+.footer-info span {
+    color: #ffffff;
+}
+
+.footer-info{
+    
+    font-weight: bold;
+}
+
+.footer-piracy{
+    text-align: right;
+    color: aliceblue;
+    
+}
+
+.footer-logo {
+    display: flex;
+    color: rgb(255, 255, 255);
+    justify-content: center;
+    align-items: center;
+    height: 100px; /* Adjust as needed */
+    
+    
+    
+}
+
+footer img { max-width: 100px;
+}
+ 
+.menu-item {
+    display: flex; /* Enables horizontal layout */
+    align-items: center; /* Vertically aligns items */
+    justify-content: space-between; /* Keeps price on the right */
+    background-color: #000000;
+    padding: 15px;
+    margin-bottom: 10px;
+    border-radius: 8px;
+    box-shadow: 0 2px 5px rgba(255, 145, 0, 0.811);
+    color: #fff;
+    max-width: 1500px;
+    margin-left: 70px;
+    margin-right: 70px;
+    gap: 100px;
+}
+
+.menu-item img {
+    width: 80px; /* Image size */
+    height: 80px;
+    object-fit: cover; /* Keeps proper aspect ratio */
+    border-radius: 8px; /* Optional: rounded corners */
+    margin-right: 15px; /* Space between image and text */
+}
+
+h2{
+    color: #fff;
+}
+
+html {
+    scroll-padding-top: 50px; /* Adjust the value to match the height of your fixed header */
+    scroll-behavior: smooth; /* Adds smooth scrolling effect */
+}
+
+.add-to-cart {
+    background-color: #ff6600; /* Orange */
+    color: rgb(0, 0, 0);
+    padding: 12px 20px;
+    border: none;
+    border-radius: 5px;
+    font-size: 16px;
+    cursor: pointer;
+    transition: 0.3s ease;
+}
+
+.add-to-cart:hover {
+    background-color: #e65c00; /* Darker Orange */
+}
+
+.add-to-cart:active {
+    transform: scale(0.95); /* Click effect */
+}
+
+.view-cart {
+    background-color: #ff6600; /* Vibrant Orange */
+    color: rgb(0, 0, 0);
+    padding: 15px 30px;
+    font-size: 18px;
+    font-weight: bold;
+    border: none;
+    border-radius: 8px;
+    transition: all 0.3s ease;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-left: 1450px;
+    margin-right: 1450px;
+    text-decoration: underline;
+    
+}
+
+.view-cart:hover {
+    background-color: #e65c00; /* Darker Orange */
+    transform: scale(1.05);
+}
+
+.view-cart:active {
+    transform: scale(0.95);
+}
+
+.button-row {
+    display: flex;
+    justify-content: center;
+    gap: 15px;
+    margin-top: 20px;
+}
+
+/* Button Styling */
+.btn {
+    background: #ff6600; /* Orange color */
+    color: rgb(0, 0, 0);
+    padding: 12px 25px;
+    text-decoration: none;
+    font-size: 16px;
+    font-weight: bold;
+    border-radius: 8px;
+    transition: all 0.3s ease-in-out;
+    box-shadow: 2px 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+/* Hover Effect */
+.btn:hover {
+    background: #e65c00;
+    transform: scale(1.05);
+}
+
+/* Active (Click) Effect */
+.btn:active {
+    transform: scale(0.95);
+}
+
+/* Responsive Design */
+@media (max-width: 768px) {
+    .button-row {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .btn {
+        width: 80%;
+        text-align: center;
+    }
+}
+
+.BackToTop {
+    background-color: #ff6600; /* Orange */
+    color: rgb(0, 0, 0);
+    padding: 12px 20px;
+    border: none;
+    border-radius: 20px;
+    font-size: 16px;
+    cursor: pointer;
+    transition: 0.3s ease;
+    margin: 20px;
+}
+
+.BackToTop:hover {
+    background-color: #e65c00; /* Darker Orange */
+}
+
+.BackToTop:active {
+    transform: scale(0.95); /* Click effect */
+}

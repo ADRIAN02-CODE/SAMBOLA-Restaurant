@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Order Confirmation - Sambol Kitchen</title>
+  <link rel="stylesheet" href="C:\Users\User\Documents\HTML tutorial\Course work\CSS\order.css">
+</head>
+<body>
+  <header>
+    <div class="logo">
+      <img src="C:\Users\User\Documents\HTML tutorial\Course work\Pictures\NEWLOGO.png" alt="Sambol Kitchen Logo" style="height: 150px; max-height: 150px;">
+    </div>
+    <nav class="nav-button">
+      <a href="home 1.html">Home</a>
+      <a href="menu.html">Order Now</a>
+      <a href="home 1.html#about-us">About Us</a>
+      <a href="home 1.html#contact-us">Contact Us</a>
+    </nav>
+  </header>
+  
+  <main>
+    <h2>Order Confirmation</h2>
+    <p>Thank you for your order! <br>
+
+    <p>Your request has been received and is being prepared with care. Your order details are provided below:</p>
+    
+    <h3>Delivery Information</h3>
+    <p><strong>Name:</strong> <span id="customer-name"></span></p>
+    <p><strong>Mobile:</strong> <span id="customer-mobile"></span></p>
+    <p><strong>Address:</strong> <span id="customer-address"></span></p>
+    
+    <h3>Ordered Items</h3>
+    <ul id="order-list"></ul>
+    
+    <p><strong>Total Price:</strong> LKR <span id="order-total"></span></p>
+  </main>
+  
+  
+  
+
+  <script>
+    document.addEventListener("DOMContentLoaded", function() {
+        document.getElementById("customer-name").textContent = localStorage.getItem("customerName");
+        document.getElementById("customer-mobile").textContent = localStorage.getItem("customerMobile");
+        document.getElementById("customer-address").textContent = localStorage.getItem("customerAddress");
+        
+        let cart = JSON.parse(localStorage.getItem('cart')) || [];
+        let orderList = document.getElementById('order-list');
+        let total = 0;
+
+        orderList.innerHTML = '';
+        cart.forEach(item => {
+            let li = document.createElement('li');
+            li.textContent = `${item.name} x${item.quantity} - LKR${(item.price * item.quantity).toFixed(2)}`;
+            orderList.appendChild(li);
+            total += item.price * item.quantity;
+        });
+        document.getElementById('order-total').textContent = total.toFixed(2);
+        localStorage.removeItem('cart');
+    });
+  </script>;
+</body>
+</html>
